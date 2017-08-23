@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/icon_search_24dp"
+        app:showAsAction="always"
+        android:title="Search"></item>
+    <item
+        android:id="@+id/setting"
+        app:showAsAction="always"
+        android:title="Setting"
+        android:icon="@drawable/icon_more_24dp">
+        <menu>
+            <item
+                android:id="@+id/set"
+                android:title="Privacy Policy"
+                app:showAsAction="ifRoom"></item>
+            <item
+                android:id="@+id/help"
+                android:title="Help &amp; Feedback"
+                app:showAsAction="ifRoom"></item>
+            <item
+                android:id="@+id/signout"
+                android:title="Sign out"
+                app:showAsAction="ifRoom"></item>
+        </menu>
+    </item>
+</menu>
